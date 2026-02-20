@@ -486,7 +486,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "./",
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
@@ -560,12 +560,42 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pin",
+          "name": "Sim.Pin",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -625,6 +655,30 @@
     [
       "9c3fd946-361f-4818-a9de-72eecbd2c7bd",
       "Regulador de Tensao"
+    ],
+    [
+      "17bee45f-f3a2-49e1-a0f6-7717cbcaab1c",
+      "CH340"
+    ],
+    [
+      "6d409481-8893-4a65-ac5a-8215d51ff4b9",
+      "Reles"
+    ],
+    [
+      "7c0386ab-ad55-49ca-9208-412e4006b70e",
+      "Rele 2"
+    ],
+    [
+      "4a654f2d-0a20-4954-8c37-0a9e1e731e6d",
+      "Rele 3"
+    ],
+    [
+      "2c4cc56f-8712-443e-bcef-d2b6de1486c0",
+      "Rele 4"
+    ],
+    [
+      "cd925d39-8883-46ed-ba4c-9b4976049c05",
+      "Rele 1"
     ]
   ],
   "text_variables": {}
