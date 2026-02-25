@@ -1347,7 +1347,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05dc8c94-88bc-46fb-92f8-ea6f156e2872")
-		(property "Reference" "J1001"
+		(property "Reference" "J21"
 			(at 102.87 68.5799 90)
 			(effects
 				(font
@@ -1393,12 +1393,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "2f61f36d-35b1-4a95-a3c6-45d22317afb2")
+			(uuid "a74f6f62-6321-4a81-9fe4-0ebbc48d7d1e")
 		)
 		(instances
-			(project ""
-				(path "/774e0363-35a9-4faf-821b-f445a1f461c7"
-					(reference "J1001")
+			(project "Arduino"
+				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/76c98e6a-1d6c-4f25-8a72-613bfa81c9a8"
+					(reference "J21")
+					(unit 1)
+				)
+				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/d6d2074d-a8e9-4707-be31-4e7eef2e7c42"
+					(reference "J19")
 					(unit 1)
 				)
 			)
@@ -1414,7 +1418,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e34a03f-37a2-4c3a-950f-bd5ccd19249a")
-		(property "Reference" "D1001"
+		(property "Reference" "D14"
 			(at 157.48 74.93 0)
 			(effects
 				(font
@@ -1476,15 +1480,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "59d0fccb-24f2-4177-bdce-7bea7299f387")
+			(uuid "d9de3787-da8a-4fa1-99d1-24b779e130f7")
 		)
 		(pin "1"
-			(uuid "0b586f7e-dafd-48aa-ad47-b2834b00fe1d")
+			(uuid "efd8a469-5cd4-4b6e-9922-27d8f18f973b")
 		)
 		(instances
-			(project ""
-				(path "/774e0363-35a9-4faf-821b-f445a1f461c7"
-					(reference "D1001")
+			(project "Arduino"
+				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/76c98e6a-1d6c-4f25-8a72-613bfa81c9a8"
+					(reference "D14")
+					(unit 1)
+				)
+				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/d6d2074d-a8e9-4707-be31-4e7eef2e7c42"
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -1500,7 +1508,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3acb9cc3-b96b-47a9-8045-b0a785b61f29")
-		(property "Reference" "R1002"
+		(property "Reference" "R28"
 			(at 134.62 73.6599 0)
 			(effects
 				(font
@@ -1546,15 +1554,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "37bc44e9-92a6-4a0e-ba8e-2db61beda977")
+			(uuid "1dcadecb-fa1d-4f6a-947b-189970b53ed8")
 		)
 		(pin "2"
-			(uuid "ca4b9818-bb8a-4896-b391-a4a0f7fc4f73")
+			(uuid "c6a43700-14ea-4997-b65e-9c7e1b32e858")
 		)
 		(instances
-			(project "ModuloBotao"
-				(path "/774e0363-35a9-4faf-821b-f445a1f461c7"
-					(reference "R1002")
+			(project "Arduino"
+				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/76c98e6a-1d6c-4f25-8a72-613bfa81c9a8"
+					(reference "R28")
+					(unit 1)
+				)
+				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/d6d2074d-a8e9-4707-be31-4e7eef2e7c42"
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -1570,7 +1582,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a7a32a8-3ce1-4973-8042-4a7a0f37e615")
-		(property "Reference" "R1001"
+		(property "Reference" "R27"
 			(at 120.65 76.2 90)
 			(effects
 				(font
@@ -1614,15 +1626,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "389f4a53-7411-4db6-802f-2b726b9355a9")
+			(uuid "59c80e8b-8669-4850-a049-87a28dba70e6")
 		)
 		(pin "2"
-			(uuid "84fd1216-b44d-4e5e-965d-32f290142f11")
+			(uuid "60b4f493-eb72-4a56-8739-0d1b3d84c94b")
 		)
 		(instances
-			(project ""
-				(path "/774e0363-35a9-4faf-821b-f445a1f461c7"
-					(reference "R1001")
+			(project "Arduino"
+				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/76c98e6a-1d6c-4f25-8a72-613bfa81c9a8"
+					(reference "R27")
+					(unit 1)
+				)
+				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/d6d2074d-a8e9-4707-be31-4e7eef2e7c42"
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -1638,7 +1654,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba4eb6aa-3d68-4981-a9b5-44646341bc11")
-		(property "Reference" "JP1001"
+		(property "Reference" "JP8"
 			(at 109.22 74.93 0)
 			(effects
 				(font
@@ -1682,15 +1698,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "d127945b-0e28-478f-b3cc-7b54c55b33b8")
+			(uuid "acd65e1e-0a46-4516-86cc-c764332d9095")
 		)
 		(pin "2"
-			(uuid "34310dc4-daf3-44b5-b93c-eab19300d75c")
+			(uuid "3f752d0e-ba94-450e-922a-63ff6ed79659")
 		)
 		(instances
-			(project ""
-				(path "/774e0363-35a9-4faf-821b-f445a1f461c7"
-					(reference "JP1001")
+			(project "Arduino"
+				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/76c98e6a-1d6c-4f25-8a72-613bfa81c9a8"
+					(reference "JP8")
+					(unit 1)
+				)
+				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/d6d2074d-a8e9-4707-be31-4e7eef2e7c42"
+					(reference "JP7")
 					(unit 1)
 				)
 			)
@@ -1706,7 +1726,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8d09305-5b7c-4c38-9156-d73c3a2dd642")
-		(property "Reference" "SW1001"
+		(property "Reference" "SW3"
 			(at 133.35 88.8999 90)
 			(effects
 				(font
@@ -1752,21 +1772,25 @@
 			)
 		)
 		(pin "1"
-			(uuid "493c8ce8-2c37-4565-9d5f-18893cec5380")
+			(uuid "69a75268-b084-4e3b-8dc3-499287f9eae4")
 		)
 		(pin "3"
-			(uuid "24c1a639-19c7-4ca2-b52b-e8cb870bfe80")
+			(uuid "bd3aed25-d0a4-4608-b821-19fc738cfb5f")
 		)
 		(pin "2"
-			(uuid "d510fdfc-cb76-4a38-83bc-b6ef9f018722")
+			(uuid "10846a61-d842-4862-817c-c521717f73ad")
 		)
 		(pin "4"
-			(uuid "75fe1966-17a6-49ca-a7ba-5d9c470b86b3")
+			(uuid "cf9438ab-2548-43b2-b54b-70ee516f20bb")
 		)
 		(instances
-			(project ""
-				(path "/774e0363-35a9-4faf-821b-f445a1f461c7"
-					(reference "SW1001")
+			(project "Arduino"
+				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/76c98e6a-1d6c-4f25-8a72-613bfa81c9a8"
+					(reference "SW3")
+					(unit 1)
+				)
+				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/d6d2074d-a8e9-4707-be31-4e7eef2e7c42"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -1782,7 +1806,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee4f4069-fa32-40ca-875b-c678c6958af3")
-		(property "Reference" "C1001"
+		(property "Reference" "C18"
 			(at 152.4 88.9062 0)
 			(effects
 				(font
@@ -1828,15 +1852,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "d77025f9-c30b-4f22-9bb2-c638d3af7d7f")
+			(uuid "79db5dd4-feb3-4503-b23e-cbbc637a9e8e")
 		)
 		(pin "2"
-			(uuid "d3e993ba-de64-46a7-9ae6-74e5ea1f4afb")
+			(uuid "7f574828-a3b9-4177-ac07-ae4296a469cb")
 		)
 		(instances
-			(project ""
-				(path "/774e0363-35a9-4faf-821b-f445a1f461c7"
-					(reference "C1001")
+			(project "Arduino"
+				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/76c98e6a-1d6c-4f25-8a72-613bfa81c9a8"
+					(reference "C18")
+					(unit 1)
+				)
+				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/d6d2074d-a8e9-4707-be31-4e7eef2e7c42"
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -1852,7 +1880,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef87f442-bd7a-48e1-9443-7d27f194f02f")
-		(property "Reference" "J1002"
+		(property "Reference" "J22"
 			(at 171.45 68.5799 90)
 			(effects
 				(font
@@ -1898,24 +1926,22 @@
 			)
 		)
 		(pin "2"
-			(uuid "7d118488-032f-409d-ad33-bdef1f3d9725")
+			(uuid "3c6d7f33-2281-4732-a1a4-bc9de58de56e")
 		)
 		(pin "1"
-			(uuid "c5ab6cf0-b8b3-42e9-bb34-88c445301769")
+			(uuid "25adbd5b-0252-484b-9036-311bc3a2acdb")
 		)
 		(instances
-			(project ""
-				(path "/774e0363-35a9-4faf-821b-f445a1f461c7"
-					(reference "J1002")
+			(project "Arduino"
+				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/76c98e6a-1d6c-4f25-8a72-613bfa81c9a8"
+					(reference "J22")
+					(unit 1)
+				)
+				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/d6d2074d-a8e9-4707-be31-4e7eef2e7c42"
+					(reference "J20")
 					(unit 1)
 				)
 			)
 		)
 	)
-	(sheet_instances
-		(path "/"
-			(page "1")
-		)
-	)
-	(embedded_fonts no)
 )
