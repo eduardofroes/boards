@@ -1347,7 +1347,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05dc8c94-88bc-46fb-92f8-ea6f156e2872")
-		(property "Reference" "J21"
+		(property "Reference" "J20"
 			(at 102.87 68.5799 90)
 			(effects
 				(font
@@ -1398,11 +1398,11 @@
 		(instances
 			(project "Arduino"
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/76c98e6a-1d6c-4f25-8a72-613bfa81c9a8"
-					(reference "J21")
+					(reference "J20")
 					(unit 1)
 				)
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/d6d2074d-a8e9-4707-be31-4e7eef2e7c42"
-					(reference "J19")
+					(reference "J22")
 					(unit 1)
 				)
 			)
@@ -1418,7 +1418,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e34a03f-37a2-4c3a-950f-bd5ccd19249a")
-		(property "Reference" "D14"
+		(property "Reference" "D11"
 			(at 157.48 74.93 0)
 			(effects
 				(font
@@ -1488,11 +1488,11 @@
 		(instances
 			(project "Arduino"
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/76c98e6a-1d6c-4f25-8a72-613bfa81c9a8"
-					(reference "D14")
+					(reference "D11")
 					(unit 1)
 				)
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/d6d2074d-a8e9-4707-be31-4e7eef2e7c42"
-					(reference "D13")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -1508,7 +1508,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3acb9cc3-b96b-47a9-8045-b0a785b61f29")
-		(property "Reference" "R28"
+		(property "Reference" "R23"
 			(at 134.62 73.6599 0)
 			(effects
 				(font
@@ -1526,7 +1526,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 132.08 74.93 0)
 			(effects
 				(font
@@ -1562,11 +1562,11 @@
 		(instances
 			(project "Arduino"
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/76c98e6a-1d6c-4f25-8a72-613bfa81c9a8"
-					(reference "R28")
+					(reference "R23")
 					(unit 1)
 				)
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/d6d2074d-a8e9-4707-be31-4e7eef2e7c42"
-					(reference "R26")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -1582,7 +1582,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a7a32a8-3ce1-4973-8042-4a7a0f37e615")
-		(property "Reference" "R27"
+		(property "Reference" "R22"
 			(at 120.65 76.2 90)
 			(effects
 				(font
@@ -1598,7 +1598,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 120.65 81.28 0)
 			(effects
 				(font
@@ -1634,11 +1634,11 @@
 		(instances
 			(project "Arduino"
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/76c98e6a-1d6c-4f25-8a72-613bfa81c9a8"
-					(reference "R27")
+					(reference "R22")
 					(unit 1)
 				)
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/d6d2074d-a8e9-4707-be31-4e7eef2e7c42"
-					(reference "R25")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -1654,7 +1654,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba4eb6aa-3d68-4981-a9b5-44646341bc11")
-		(property "Reference" "JP8"
+		(property "Reference" "JP6"
 			(at 109.22 74.93 0)
 			(effects
 				(font
@@ -1706,7 +1706,7 @@
 		(instances
 			(project "Arduino"
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/76c98e6a-1d6c-4f25-8a72-613bfa81c9a8"
-					(reference "JP8")
+					(reference "JP6")
 					(unit 1)
 				)
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/d6d2074d-a8e9-4707-be31-4e7eef2e7c42"
@@ -1726,7 +1726,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8d09305-5b7c-4c38-9156-d73c3a2dd642")
-		(property "Reference" "SW3"
+		(property "Reference" "SW2"
 			(at 133.35 88.8999 90)
 			(effects
 				(font
@@ -1786,11 +1786,11 @@
 		(instances
 			(project "Arduino"
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/76c98e6a-1d6c-4f25-8a72-613bfa81c9a8"
-					(reference "SW3")
+					(reference "SW2")
 					(unit 1)
 				)
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/d6d2074d-a8e9-4707-be31-4e7eef2e7c42"
-					(reference "SW2")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -1806,7 +1806,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee4f4069-fa32-40ca-875b-c678c6958af3")
-		(property "Reference" "C18"
+		(property "Reference" "C17"
 			(at 152.4 88.9062 0)
 			(effects
 				(font
@@ -1824,7 +1824,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 149.86 90.17 0)
 			(effects
 				(font
@@ -1860,11 +1860,11 @@
 		(instances
 			(project "Arduino"
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/76c98e6a-1d6c-4f25-8a72-613bfa81c9a8"
-					(reference "C18")
+					(reference "C17")
 					(unit 1)
 				)
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/d6d2074d-a8e9-4707-be31-4e7eef2e7c42"
-					(reference "C17")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -1880,7 +1880,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef87f442-bd7a-48e1-9443-7d27f194f02f")
-		(property "Reference" "J22"
+		(property "Reference" "J21"
 			(at 171.45 68.5799 90)
 			(effects
 				(font
@@ -1934,11 +1934,11 @@
 		(instances
 			(project "Arduino"
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/76c98e6a-1d6c-4f25-8a72-613bfa81c9a8"
-					(reference "J22")
+					(reference "J21")
 					(unit 1)
 				)
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/d6d2074d-a8e9-4707-be31-4e7eef2e7c42"
-					(reference "J20")
+					(reference "J23")
 					(unit 1)
 				)
 			)

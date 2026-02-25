@@ -722,7 +722,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0728fbb2-a404-4ca6-aee4-e1475bd5c5d0")
-		(property "Reference" "D15"
+		(property "Reference" "D13"
 			(at 120.9675 78.74 0)
 			(effects
 				(font
@@ -783,11 +783,11 @@
 		(instances
 			(project "Arduino"
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/54e8ff50-b2bf-453b-97e6-5b05d2e40d47"
-					(reference "D16")
+					(reference "D14")
 					(unit 1)
 				)
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/c9e917bf-8660-4cf1-93f8-b84cf07b2025"
-					(reference "D15")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -803,7 +803,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ee58326-e587-4822-b729-c3ded38dc89c")
-		(property "Reference" "JP9"
+		(property "Reference" "JP8"
 			(at 91.44 80.01 0)
 			(effects
 				(font
@@ -855,11 +855,11 @@
 		(instances
 			(project "Arduino"
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/54e8ff50-b2bf-453b-97e6-5b05d2e40d47"
-					(reference "JP10")
+					(reference "JP9")
 					(unit 1)
 				)
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/c9e917bf-8660-4cf1-93f8-b84cf07b2025"
-					(reference "JP9")
+					(reference "JP8")
 					(unit 1)
 				)
 			)
@@ -875,7 +875,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e096dc3-f82f-4def-b0a0-fb009c029dfb")
-		(property "Reference" "R29"
+		(property "Reference" "R26"
 			(at 106.68 81.28 90)
 			(effects
 				(font
@@ -891,7 +891,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 106.68 86.36 0)
 			(effects
 				(font
@@ -927,11 +927,11 @@
 		(instances
 			(project "Arduino"
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/54e8ff50-b2bf-453b-97e6-5b05d2e40d47"
-					(reference "R30")
+					(reference "R27")
 					(unit 1)
 				)
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/c9e917bf-8660-4cf1-93f8-b84cf07b2025"
-					(reference "R29")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -947,7 +947,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d771ff03-c75e-4116-9713-8d804e29e87a")
-		(property "Reference" "J23"
+		(property "Reference" "J24"
 			(at 85.09 73.6599 90)
 			(effects
 				(font
@@ -998,11 +998,11 @@
 		(instances
 			(project "Arduino"
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/54e8ff50-b2bf-453b-97e6-5b05d2e40d47"
-					(reference "J24")
+					(reference "J25")
 					(unit 1)
 				)
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/c9e917bf-8660-4cf1-93f8-b84cf07b2025"
-					(reference "J23")
+					(reference "J24")
 					(unit 1)
 				)
 			)
