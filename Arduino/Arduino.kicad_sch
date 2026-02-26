@@ -4367,6 +4367,12 @@
 		(uuid "a85ba754-f49c-43c3-a761-b08b603018c9")
 	)
 	(junction
+		(at 36.83 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b340827c-0f5f-4796-af09-3c358649dc83")
+	)
+	(junction
 		(at 34.29 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4395,12 +4401,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc0b7f5a-8b9f-47b9-97d0-f8ce048052d4")
-	)
-	(junction
-		(at 36.83 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fd941de4-385e-404b-baa6-2814b2209241")
 	)
 	(wire
 		(pts
@@ -5124,6 +5124,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 25.4) (xy 34.29 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82f9944f-a754-4cb9-ad87-31bbacefe8f3")
+	)
+	(wire
+		(pts
 			(xy 134.62 127) (xy 124.46 127)
 		)
 		(stroke
@@ -5684,6 +5694,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 39.37) (xy 36.83 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d66a0580-5185-44ac-bc38-f2ea44e112e5")
+	)
+	(wire
+		(pts
 			(xy 209.55 148.59) (xy 213.36 148.59)
 		)
 		(stroke
@@ -5714,16 +5734,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 25.4) (xy 34.29 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db3ba58b-3124-40b8-8793-82afd4360327")
-	)
-	(wire
-		(pts
 			(xy 156.21 29.21) (xy 156.21 31.75)
 		)
 		(stroke
@@ -5731,16 +5741,6 @@
 			(type default)
 		)
 		(uuid "dd5fa60a-20a3-45e8-9b9a-925bda3bfd82")
-	)
-	(wire
-		(pts
-			(xy 36.83 25.4) (xy 36.83 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e34f4caf-1519-4395-aa46-709a62e56ecb")
 	)
 	(wire
 		(pts
@@ -5861,6 +5861,16 @@
 			(type default)
 		)
 		(uuid "f7c808c8-7c22-4df4-8da5-5a5729ccdbdc")
+	)
+	(wire
+		(pts
+			(xy 36.83 25.4) (xy 36.83 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9aeabc7-a756-49cf-a0b5-0c8739c59bdd")
 	)
 	(wire
 		(pts
@@ -7802,7 +7812,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 34.29 29.21 0)
+		(at 36.83 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7811,7 +7821,7 @@
 		(fields_autoplaced yes)
 		(uuid "09ba57fb-a560-4a14-acb9-203518ffa087")
 		(property "Reference" "#PWR03"
-			(at 34.29 35.56 0)
+			(at 36.83 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7820,7 +7830,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 34.29 34.29 0)
+			(at 36.83 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7828,7 +7838,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 29.21 0)
+			(at 36.83 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7837,7 +7847,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 29.21 0)
+			(at 36.83 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7846,7 +7856,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 34.29 29.21 0)
+			(at 36.83 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11114,82 +11124,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_MEC_5G")
-		(at 240.03 106.68 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bae64a2a-cfa5-4f01-b972-d6c34e324216")
-		(property "Reference" "SW1"
-			(at 241.3 105.4099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Reset"
-			(at 241.3 107.9499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
-			(at 234.95 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
-			(at 234.95 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "MEC 5G single pole normally-open tactile switch"
-			(at 240.03 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "47767388-90d9-4346-b338-76d1b945c137")
-		)
-		(pin "2"
-			(uuid "5822eef5-da64-4b59-b78d-1aba16f2885b")
-		)
-		(pin "4"
-			(uuid "24a292e6-4cd1-460e-895c-003a3d9233e6")
-		)
-		(pin "1"
-			(uuid "64fdc21e-89de-4528-9f7a-bcd8159a4022")
-		)
-		(instances
-			(project ""
-				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 246.38 73.66 0)
 		(unit 1)
@@ -11514,6 +11448,82 @@
 			(project "Arduino"
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 240.03 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cac971c4-5771-4174-be88-0bf1b8d00d74")
+		(property "Reference" "SW1"
+			(at 241.3 105.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Reset"
+			(at 241.3 107.9499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
+			(at 234.95 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 234.95 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 240.03 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "17d822a8-c809-4719-b162-7e371cb6352e")
+		)
+		(pin "2"
+			(uuid "e515155f-e5ca-46dd-9723-5057f01371eb")
+		)
+		(pin "4"
+			(uuid "8b77d096-a457-4304-b3ac-ed66d12cbe38")
+		)
+		(pin "1"
+			(uuid "0bfed6fa-116d-46fe-87e9-ff50978525a3")
+		)
+		(instances
+			(project "Arduino"
+				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -12700,7 +12710,7 @@
 				)
 			)
 		)
-		(property "Value" "Digital"
+		(property "Value" "Power"
 			(at 127.254 33.02 0)
 			(effects
 				(font
