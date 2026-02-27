@@ -1654,7 +1654,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba4eb6aa-3d68-4981-a9b5-44646341bc11")
-		(property "Reference" "JP6"
+		(property "Reference" "JP7"
 			(at 109.22 74.93 0)
 			(effects
 				(font
@@ -1706,11 +1706,11 @@
 		(instances
 			(project "Arduino"
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/76c98e6a-1d6c-4f25-8a72-613bfa81c9a8"
-					(reference "JP6")
+					(reference "JP7")
 					(unit 1)
 				)
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/d6d2074d-a8e9-4707-be31-4e7eef2e7c42"
-					(reference "JP7")
+					(reference "JP8")
 					(unit 1)
 				)
 			)

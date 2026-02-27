@@ -426,7 +426,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:1N4148WT"
+		(symbol "Diode:1N4007"
 			(pin_numbers
 				(hide yes)
 			)
@@ -444,7 +444,7 @@
 					)
 				)
 			)
-			(property "Value" "1N4148WT"
+			(property "Value" "1N4007"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -452,7 +452,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_SMD:D_SOD-523"
+			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 				(at 0 -4.445 0)
 				(effects
 					(font
@@ -461,7 +461,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -470,7 +470,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
 				(at 0 0 0)
 				(effects
 					(font
@@ -506,7 +506,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "D*SOD?523*"
+			(property "ki_fp_filters" "D*DO?41*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -515,7 +515,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "1N4148WT_0_1"
+			(symbol "1N4007_0_1"
 				(polyline
 					(pts
 						(xy -1.27 1.27) (xy -1.27 -1.27)
@@ -553,7 +553,7 @@
 					)
 				)
 			)
-			(symbol "1N4148WT_1_1"
+			(symbol "1N4007_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -1588,7 +1588,7 @@
 		)
 		(uuid "49482ba9-5ce6-4fff-8abb-5f18ded7e22a")
 	)
-	(hierarchical_label "12V"
+	(hierarchical_label "+12V"
 		(shape input)
 		(at 110.49 34.29 90)
 		(effects
@@ -1599,7 +1599,7 @@
 		)
 		(uuid "4b80a36d-630a-40e2-a417-1a29ee5d38d8")
 	)
-	(hierarchical_label "12V"
+	(hierarchical_label "+12V"
 		(shape input)
 		(at 73.66 34.29 90)
 		(effects
@@ -1632,7 +1632,7 @@
 		)
 		(uuid "a62e78e1-01e2-481f-8162-bf13732e117d")
 	)
-	(hierarchical_label "12V"
+	(hierarchical_label "+12V"
 		(shape input)
 		(at 91.44 34.29 90)
 		(effects
@@ -1721,7 +1721,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "c884b44d-a4a0-4fd0-87d4-623e629cd721")
+			(uuid "d73812a1-ebd4-4f9e-9a53-881ce3278643")
 		)
 		(instances
 			(project "Arduino"
@@ -1733,7 +1733,7 @@
 					(reference "J18")
 					(unit 1)
 				)
-				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/6d409481-8893-4a65-ac5a-8215d51ff4b9/7c0386ab-ad55-49ca-9208-412e4006b70e"
+				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/6d409481-8893-4a65-ac5a-8215d51ff4b9/95d6ed7c-668f-45ec-9d3e-e04d0bc610f9"
 					(reference "J17")
 					(unit 1)
 				)
@@ -1800,10 +1800,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "3c18d0ac-267c-4149-ab0e-21bc7b03fce7")
+			(uuid "28525378-d8de-41af-9c8f-a50066440360")
 		)
 		(pin "2"
-			(uuid "4948d000-7139-44b1-b3f3-99bf8ba9eff1")
+			(uuid "c9670519-eaa3-4a12-a664-3bb70582eb8d")
 		)
 		(instances
 			(project "Arduino"
@@ -1815,7 +1815,7 @@
 					(reference "R16")
 					(unit 1)
 				)
-				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/6d409481-8893-4a65-ac5a-8215d51ff4b9/7c0386ab-ad55-49ca-9208-412e4006b70e"
+				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/6d409481-8893-4a65-ac5a-8215d51ff4b9/95d6ed7c-668f-45ec-9d3e-e04d0bc610f9"
 					(reference "R13")
 					(unit 1)
 				)
@@ -1891,10 +1891,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "1b1ce6a4-a888-40b9-a4be-86969081f742")
+			(uuid "52489ad0-ff6b-468f-8e7d-61a513a8b763")
 		)
 		(pin "2"
-			(uuid "a56d7584-544f-4108-9bd9-fe5fe87fd8ad")
+			(uuid "7f4a4058-2edd-404d-ba9c-2a5c3bf2ac40")
 		)
 		(instances
 			(project "Arduino"
@@ -1906,12 +1906,112 @@
 					(reference "D7")
 					(unit 1)
 				)
-				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/6d409481-8893-4a65-ac5a-8215d51ff4b9/7c0386ab-ad55-49ca-9208-412e4006b70e"
+				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/6d409481-8893-4a65-ac5a-8215d51ff4b9/95d6ed7c-668f-45ec-9d3e-e04d0bc610f9"
 					(reference "D5")
 					(unit 1)
 				)
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/6d409481-8893-4a65-ac5a-8215d51ff4b9/cd925d39-8883-46ed-ba4c-9b4976049c05"
 					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4007")
+		(at 91.44 57.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3190927f-fa86-4623-96a5-9b6d41645540")
+		(property "Reference" "D6"
+			(at 93.98 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4007"
+			(at 93.98 58.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 86.995 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 91.44 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
+			(at 91.44 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 91.44 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 91.44 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eb7c0299-bf2e-4320-9b65-f47812ac4702")
+		)
+		(pin "1"
+			(uuid "f364069b-4958-4060-93ae-09236dccb579")
+		)
+		(instances
+			(project "Arduino"
+				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/6d409481-8893-4a65-ac5a-8215d51ff4b9/2c4cc56f-8712-443e-bcef-d2b6de1486c0"
+					(reference "D10")
+					(unit 1)
+				)
+				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/6d409481-8893-4a65-ac5a-8215d51ff4b9/4a654f2d-0a20-4954-8c37-0a9e1e731e6d"
+					(reference "D8")
+					(unit 1)
+				)
+				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/6d409481-8893-4a65-ac5a-8215d51ff4b9/95d6ed7c-668f-45ec-9d3e-e04d0bc610f9"
+					(reference "D6")
+					(unit 1)
+				)
+				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/6d409481-8893-4a65-ac5a-8215d51ff4b9/cd925d39-8883-46ed-ba4c-9b4976049c05"
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -1976,13 +2076,13 @@
 			)
 		)
 		(pin "3"
-			(uuid "7b9547fa-f534-4671-a5fd-792c4e858d26")
+			(uuid "0d8ec3e6-009f-4e41-aa81-586707aeba95")
 		)
 		(pin "1"
-			(uuid "a1427b32-b053-4da4-b3c7-4456d1d64bf2")
+			(uuid "06209254-3aff-455a-87d2-dc326764bdd0")
 		)
 		(pin "2"
-			(uuid "0158b7d2-7293-4279-a3e2-309d6d922a0d")
+			(uuid "c9aee392-0bb8-403c-8990-9202678cca2c")
 		)
 		(instances
 			(project "Arduino"
@@ -1994,7 +2094,7 @@
 					(reference "Q4")
 					(unit 1)
 				)
-				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/6d409481-8893-4a65-ac5a-8215d51ff4b9/7c0386ab-ad55-49ca-9208-412e4006b70e"
+				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/6d409481-8893-4a65-ac5a-8215d51ff4b9/95d6ed7c-668f-45ec-9d3e-e04d0bc610f9"
 					(reference "Q3")
 					(unit 1)
 				)
@@ -2059,10 +2159,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "82945daf-e55b-4715-b1dc-8a80825a47bd")
+			(uuid "fb3fd2ed-03e2-40b2-97f6-133de3299a06")
 		)
 		(pin "2"
-			(uuid "12074c88-8e74-4eaf-ba11-fbda17281830")
+			(uuid "9a1efa34-b775-4b27-b116-ad8ce48c0809")
 		)
 		(instances
 			(project "Arduino"
@@ -2074,112 +2174,12 @@
 					(reference "R18")
 					(unit 1)
 				)
-				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/6d409481-8893-4a65-ac5a-8215d51ff4b9/7c0386ab-ad55-49ca-9208-412e4006b70e"
+				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/6d409481-8893-4a65-ac5a-8215d51ff4b9/95d6ed7c-668f-45ec-9d3e-e04d0bc610f9"
 					(reference "R15")
 					(unit 1)
 				)
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/6d409481-8893-4a65-ac5a-8215d51ff4b9/cd925d39-8883-46ed-ba4c-9b4976049c05"
 					(reference "R30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148WT")
-		(at 91.44 57.15 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8fc32ca2-ef8c-4727-9e49-40c51bc49c48")
-		(property "Reference" "D6"
-			(at 93.98 55.8799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4148WT"
-			(at 93.98 58.4199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 86.995 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
-			(at 91.44 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
-			(at 91.44 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 91.44 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 91.44 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fbcfde40-2b3f-4426-8a9f-4097802ccf61")
-		)
-		(pin "2"
-			(uuid "edcd687d-98bd-4634-b023-7dce1f1b8873")
-		)
-		(instances
-			(project "Arduino"
-				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/6d409481-8893-4a65-ac5a-8215d51ff4b9/2c4cc56f-8712-443e-bcef-d2b6de1486c0"
-					(reference "D10")
-					(unit 1)
-				)
-				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/6d409481-8893-4a65-ac5a-8215d51ff4b9/4a654f2d-0a20-4954-8c37-0a9e1e731e6d"
-					(reference "D8")
-					(unit 1)
-				)
-				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/6d409481-8893-4a65-ac5a-8215d51ff4b9/7c0386ab-ad55-49ca-9208-412e4006b70e"
-					(reference "D6")
-					(unit 1)
-				)
-				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/6d409481-8893-4a65-ac5a-8215d51ff4b9/cd925d39-8883-46ed-ba4c-9b4976049c05"
-					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -2194,7 +2194,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b23dacf7-ae27-40ab-a444-5730f97a5a4f")
-		(property "Reference" "JP3"
+		(property "Reference" "JP4"
 			(at 59.69 80.264 0)
 			(effects
 				(font
@@ -2238,27 +2238,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "277df8ef-a96a-4095-b7de-85d93869348c")
+			(uuid "0c464f42-660b-4503-be95-8642d742d1fa")
 		)
 		(pin "2"
-			(uuid "e12d690d-f7c9-4e00-b3ca-ffbbb3923045")
+			(uuid "eb31e039-71e1-45f3-a770-2ffb65c39a2c")
 		)
 		(instances
 			(project "Arduino"
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/6d409481-8893-4a65-ac5a-8215d51ff4b9/2c4cc56f-8712-443e-bcef-d2b6de1486c0"
-					(reference "JP5")
+					(reference "JP6")
 					(unit 1)
 				)
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/6d409481-8893-4a65-ac5a-8215d51ff4b9/4a654f2d-0a20-4954-8c37-0a9e1e731e6d"
+					(reference "JP5")
+					(unit 1)
+				)
+				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/6d409481-8893-4a65-ac5a-8215d51ff4b9/95d6ed7c-668f-45ec-9d3e-e04d0bc610f9"
 					(reference "JP4")
 					(unit 1)
 				)
-				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/6d409481-8893-4a65-ac5a-8215d51ff4b9/7c0386ab-ad55-49ca-9208-412e4006b70e"
-					(reference "JP3")
-					(unit 1)
-				)
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/6d409481-8893-4a65-ac5a-8215d51ff4b9/cd925d39-8883-46ed-ba4c-9b4976049c05"
-					(reference "JP10")
+					(reference "JP11")
 					(unit 1)
 				)
 			)
@@ -2320,10 +2320,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "26856ef0-5981-47ee-93cd-fcf5608e0fe1")
+			(uuid "caecbabd-27f5-4b53-90e1-a6f7334bd788")
 		)
 		(pin "2"
-			(uuid "592d42d6-bd7c-4572-aa67-059d5a25696d")
+			(uuid "91239ba5-8d19-4630-ad12-58bf7cf7c0cf")
 		)
 		(instances
 			(project "Arduino"
@@ -2335,7 +2335,7 @@
 					(reference "R17")
 					(unit 1)
 				)
-				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/6d409481-8893-4a65-ac5a-8215d51ff4b9/7c0386ab-ad55-49ca-9208-412e4006b70e"
+				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/6d409481-8893-4a65-ac5a-8215d51ff4b9/95d6ed7c-668f-45ec-9d3e-e04d0bc610f9"
 					(reference "R14")
 					(unit 1)
 				)
@@ -2403,19 +2403,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "d9bf44ab-0e3d-40dd-86ca-2ee4fd9002d4")
+			(uuid "57e852ab-b99e-476f-ab50-2d2de4b9c479")
 		)
 		(pin "3"
-			(uuid "35e4c768-7038-49a3-a7ca-7081b0bef37b")
+			(uuid "d74d8d20-a83c-459c-aca2-0bb1802e070a")
 		)
 		(pin "2"
-			(uuid "f9daf8b8-0b9a-421d-a6d4-4840592b1e42")
+			(uuid "d7243e3e-d83a-4aed-94f4-33c1ae4eb189")
 		)
 		(pin "4"
-			(uuid "ee1085a8-5a94-4dca-a712-d5a1e82fa1f0")
+			(uuid "11f1b739-6a40-4245-ba82-a728cc9c48c0")
 		)
 		(pin "5"
-			(uuid "556ea9d2-3dee-478f-9e41-ad0ad6c51479")
+			(uuid "f6a00245-4e43-496c-94a4-49c460ff28eb")
 		)
 		(instances
 			(project "Arduino"
@@ -2427,7 +2427,7 @@
 					(reference "K2")
 					(unit 1)
 				)
-				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/6d409481-8893-4a65-ac5a-8215d51ff4b9/7c0386ab-ad55-49ca-9208-412e4006b70e"
+				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e/6d409481-8893-4a65-ac5a-8215d51ff4b9/95d6ed7c-668f-45ec-9d3e-e04d0bc610f9"
 					(reference "K1")
 					(unit 1)
 				)

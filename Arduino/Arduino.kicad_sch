@@ -2575,6 +2575,170 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_Potentiometer_Trim"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RV"
+				(at -4.445 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Potentiometer_Trim"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Trim-potentiometer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resistor variable trimpot trimmer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Potentiometer*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Potentiometer_Trim_0_1"
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 0.762) (xy 1.524 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_Trim_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_Small"
 			(pin_numbers
 				(hide yes)
@@ -2683,6 +2847,203 @@
 					(at 0 -2.54 90)
 					(length 0.762)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Jumper:SolderJumper_2_Bridged"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Bridged"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Bridged*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_2_Bridged_0_1"
+				(rectangle
+					(start -0.508 0.508)
+					(end 0.508 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Bridged_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4071,6 +4432,18 @@
 		(uuid 1d148f89-d167-4e79-af7c-78c35b21f623)
 	)
 	(rectangle
+		(start 88.9 133.35)
+		(end 120.65 154.94)
+		(stroke
+			(width 0.254)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 34784df6-b2b9-4787-91b9-27963644fd2e)
+	)
+	(rectangle
 		(start 97.79 13.97)
 		(end 160.02 77.47)
 		(stroke
@@ -4247,6 +4620,16 @@
 			)
 		)
 		(uuid "52b0e8f9-d405-4784-a34a-a97898b1c65d")
+	)
+	(text "Trimpot"
+		(exclude_from_sim no)
+		(at 93.218 135.128 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6cc0e8ec-3f4a-4034-894b-eeed1daf2f39")
 	)
 	(text "ATmega328"
 		(exclude_from_sim no)
@@ -4534,6 +4917,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 143.51) (xy 114.3 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11bb6f6d-c111-4506-926c-2ccc33aaf3a5")
+	)
+	(wire
+		(pts
 			(xy 212.09 58.42) (xy 223.52 58.42)
 		)
 		(stroke
@@ -4704,6 +5097,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 143.51) (xy 104.14 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d807c5e-dd3f-46b0-bad4-554600f39dea")
+	)
+	(wire
+		(pts
 			(xy 34.29 48.26) (xy 34.29 50.8)
 		)
 		(stroke
@@ -4824,6 +5227,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 147.32) (xy 99.06 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46bf53ec-cac4-490a-a3f0-48dc88e62cd9")
+	)
+	(wire
+		(pts
 			(xy 124.46 124.46) (xy 124.46 123.19)
 		)
 		(stroke
@@ -4891,6 +5304,16 @@
 			(type default)
 		)
 		(uuid "4d1c820f-51e5-4a37-b842-b2bf130a7f12")
+	)
+	(wire
+		(pts
+			(xy 99.06 138.43) (xy 99.06 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e33b83b-b68d-41b4-a686-8791f65a10e7")
 	)
 	(wire
 		(pts
@@ -5091,6 +5514,16 @@
 			(type default)
 		)
 		(uuid "7ab08632-b688-460a-82c8-366f455a0eca")
+	)
+	(wire
+		(pts
+			(xy 99.06 115.57) (xy 99.06 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7af6042f-1fe8-4189-bcf8-7fb8e5bd0184")
 	)
 	(wire
 		(pts
@@ -5341,6 +5774,16 @@
 			(type default)
 		)
 		(uuid "98f21752-b5cb-43c2-804e-8c6d5bf2c0dc")
+	)
+	(wire
+		(pts
+			(xy 111.76 115.57) (xy 111.76 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b5c7043-3574-48cc-b4db-1529a9069515")
 	)
 	(wire
 		(pts
@@ -5644,16 +6087,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 115.57) (xy 111.76 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccaf8af6-0079-4bb0-8c4f-a8769deb7b77")
-	)
-	(wire
-		(pts
 			(xy 257.81 63.5) (xy 257.81 67.31)
 		)
 		(stroke
@@ -5761,16 +6194,6 @@
 			(type default)
 		)
 		(uuid "e66eea72-10b5-4bb9-8d30-00dbb4f2f7dc")
-	)
-	(wire
-		(pts
-			(xy 99.06 115.57) (xy 99.06 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e75ecd5c-6e49-4c4a-ac96-3536d46c6571")
 	)
 	(wire
 		(pts
@@ -6562,6 +6985,28 @@
 			)
 		)
 	)
+	(global_label "A0"
+		(shape input)
+		(at 114.3 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6d6e0fce-29a5-4f29-aa56-d45bbd45fd8e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.5833 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "A5"
 		(shape input)
 		(at 116.84 69.85 180)
@@ -6784,7 +7229,7 @@
 	)
 	(global_label "5"
 		(shape input)
-		(at 99.06 115.57 90)
+		(at 111.76 115.57 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6794,7 +7239,7 @@
 		)
 		(uuid "92a43a34-6c78-4def-9eb0-7c3449185809")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.06 111.3753 90)
+			(at 111.76 111.3753 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7356,7 +7801,7 @@
 	)
 	(global_label "6"
 		(shape input)
-		(at 111.76 115.57 90)
+		(at 99.06 115.57 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7366,7 +7811,7 @@
 		)
 		(uuid "d37a7e99-5c6f-421b-a9f4-5be31090a250")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.76 111.3753 90)
+			(at 99.06 111.3753 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7820,7 +8265,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09ba57fb-a560-4a14-acb9-203518ffa087")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR04"
 			(at 36.83 34.29 0)
 			(effects
 				(font
@@ -7870,7 +8315,7 @@
 		(instances
 			(project "Arduino"
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e"
-					(reference "#PWR03")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -7962,7 +8407,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ff08bee-2956-4db8-af3c-f43632aa03e3")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR040"
 			(at 240.03 119.38 0)
 			(effects
 				(font
@@ -8012,7 +8457,7 @@
 		(instances
 			(project "Arduino"
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e"
-					(reference "#PWR038")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -8083,6 +8528,74 @@
 			(project "Arduino"
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 107.95 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c4ac5f8-edc5-4b50-812b-45d9b4638df0")
+		(property "Reference" "JP1"
+			(at 107.95 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "A"
+			(at 107.95 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm"
+			(at 107.95 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 107.95 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a38f1d7-e5cc-483f-99a6-0b6dceb46a75")
+		)
+		(pin "2"
+			(uuid "de53ef13-5b0b-4882-b260-e55c6c046cb0")
+		)
+		(instances
+			(project "Arduino"
+				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e"
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -8435,7 +8948,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d1160fe-9092-43a0-81d9-d139687c6658")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR036"
 			(at 213.36 142.24 0)
 			(effects
 				(font
@@ -8485,7 +8998,7 @@
 		(instances
 			(project "Arduino"
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e"
-					(reference "#PWR034")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -8571,7 +9084,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31b432b0-95fd-4952-8a50-04b6dce5917e")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR024"
 			(at 130.81 92.71 0)
 			(effects
 				(font
@@ -8621,7 +9134,7 @@
 		(instances
 			(project "Arduino"
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e"
-					(reference "#PWR022")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -8636,7 +9149,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "33de53e7-e704-44bb-80c0-d2680cfb3302")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR020"
 			(at 116.84 124.46 0)
 			(effects
 				(font
@@ -8686,7 +9199,7 @@
 		(instances
 			(project "Arduino"
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e"
-					(reference "#PWR018")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -8778,7 +9291,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "384dd0b5-a454-4fda-b81e-3c66a329dae5")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR035"
 			(at 209.55 39.37 0)
 			(effects
 				(font
@@ -8828,7 +9341,7 @@
 		(instances
 			(project "Arduino"
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e"
-					(reference "#PWR033")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -8844,7 +9357,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ad69124-dc56-48cb-9111-d999224c6128")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR028"
 			(at 157.48 134.62 0)
 			(effects
 				(font
@@ -8894,7 +9407,7 @@
 		(instances
 			(project "Arduino"
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e"
-					(reference "#PWR026")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -8975,6 +9488,72 @@
 			(project "Arduino"
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 99.06 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3be1f6a5-6007-4815-9467-20571551ca2c")
+		(property "Reference" "#PWR015"
+			(at 99.06 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 99.06 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 99.06 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "721b539d-f5de-4800-9105-7056f8c327ff")
+		)
+		(instances
+			(project "Arduino"
+				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -9221,7 +9800,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40817fa5-0a3e-4514-b46d-2e2a47c237a7")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR032"
 			(at 196.85 36.83 0)
 			(effects
 				(font
@@ -9271,7 +9850,7 @@
 		(instances
 			(project "Arduino"
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e"
-					(reference "#PWR030")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -9353,7 +9932,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44967055-b82a-4867-9131-b752dee12925")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR039"
 			(at 220.98 39.37 0)
 			(effects
 				(font
@@ -9403,7 +9982,7 @@
 		(instances
 			(project "Arduino"
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e"
-					(reference "#PWR037")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -9489,7 +10068,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46ca61ee-5546-42b6-84da-407e92af32f6")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR037"
 			(at 213.36 161.29 0)
 			(effects
 				(font
@@ -9539,7 +10118,7 @@
 		(instances
 			(project "Arduino"
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e"
-					(reference "#PWR035")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -9555,7 +10134,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46e4b683-13e4-48b7-b4bd-3ad7d62c11c3")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR033"
 			(at 196.85 123.19 0)
 			(effects
 				(font
@@ -9605,7 +10184,7 @@
 		(instances
 			(project "Arduino"
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e"
-					(reference "#PWR031")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -9706,7 +10285,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "551bb005-abb1-4d3f-80d9-a2290224958d")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR019"
 			(at 111.76 130.81 0)
 			(effects
 				(font
@@ -9756,7 +10335,7 @@
 		(instances
 			(project "Arduino"
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e"
-					(reference "#PWR017")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -9772,7 +10351,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57ec0010-921f-4fb8-9901-48c10d4a24ed")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR044"
 			(at 256.54 119.38 0)
 			(effects
 				(font
@@ -9822,7 +10401,7 @@
 		(instances
 			(project ""
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e"
-					(reference "#PWR042")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -9838,7 +10417,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5aee3b4f-d0f2-43e9-85e8-3704ef4c6b58")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR021"
 			(at 124.46 127 0)
 			(effects
 				(font
@@ -9888,7 +10467,7 @@
 		(instances
 			(project "Arduino"
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e"
-					(reference "#PWR019")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -9904,7 +10483,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ea078d5-4627-428e-b05a-6d11ef5cae4c")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR041"
 			(at 243.84 157.48 0)
 			(effects
 				(font
@@ -9954,7 +10533,7 @@
 		(instances
 			(project "Arduino"
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e"
-					(reference "#PWR039")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -10120,7 +10699,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7099a87c-db5f-497a-a9a8-8f0fcf7fa8a8")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR038"
 			(at 220.98 30.48 0)
 			(effects
 				(font
@@ -10170,7 +10749,80 @@
 		(instances
 			(project "Arduino"
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e"
-					(reference "#PWR036")
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_Trim")
+		(at 99.06 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71d3c952-413d-42a6-9c6b-ddfd61e81f09")
+		(property "Reference" "RV1"
+			(at 96.52 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 96.52 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+			(at 99.06 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Trim-potentiometer"
+			(at 99.06 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "769ba1c1-636d-4758-aba6-7ffe99d30be6")
+		)
+		(pin "3"
+			(uuid "322b2804-874f-454a-bda7-d3ac0143dc02")
+		)
+		(pin "2"
+			(uuid "d43b8561-89d9-4294-8c92-097e4d8a462a")
+		)
+		(instances
+			(project ""
+				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e"
+					(reference "RV1")
 					(unit 1)
 				)
 			)
@@ -10601,7 +11253,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b1696fc-0828-44d1-b6b2-a30570ef34ec")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR045"
 			(at 257.81 76.2 0)
 			(effects
 				(font
@@ -10651,7 +11303,7 @@
 		(instances
 			(project "Arduino"
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e"
-					(reference "#PWR043")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -10667,7 +11319,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9257c140-bf4a-4f2e-a288-ff5732dc2b89")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR030"
 			(at 187.96 142.24 0)
 			(effects
 				(font
@@ -10717,7 +11369,7 @@
 		(instances
 			(project "Arduino"
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e"
-					(reference "#PWR028")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -10733,7 +11385,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d9a95d1-e32e-48f1-b6b1-fd5403cbd262")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR022"
 			(at 124.46 134.62 0)
 			(effects
 				(font
@@ -10783,7 +11435,7 @@
 		(instances
 			(project "Arduino"
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e"
-					(reference "#PWR020")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -10869,7 +11521,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa61dd37-965e-42df-805f-0cb19c42f8de")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR018"
 			(at 111.76 52.07 0)
 			(effects
 				(font
@@ -10919,7 +11571,7 @@
 		(instances
 			(project "Arduino"
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e"
-					(reference "#PWR016")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -10935,7 +11587,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b132cea8-ac17-4406-b970-0a40dc00a74a")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR047"
 			(at 267.97 157.48 0)
 			(effects
 				(font
@@ -10985,7 +11637,7 @@
 		(instances
 			(project "Arduino"
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e"
-					(reference "#PWR045")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -11001,7 +11653,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5498e26-46e6-40b7-ab8e-77b686a7cc70")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR023"
 			(at 125.73 95.25 0)
 			(effects
 				(font
@@ -11051,7 +11703,7 @@
 		(instances
 			(project "Arduino"
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e"
-					(reference "#PWR021")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -11067,7 +11719,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b954bdb6-5b6b-46f3-98fe-facd3bb1c11d")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR026"
 			(at 156.21 38.1 0)
 			(effects
 				(font
@@ -11117,7 +11769,7 @@
 		(instances
 			(project "Arduino"
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e"
-					(reference "#PWR024")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -11133,7 +11785,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be2bd5ae-5e2f-410b-b30f-b2b02e57bb21")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR042"
 			(at 246.38 80.01 0)
 			(effects
 				(font
@@ -11183,7 +11835,72 @@
 		(instances
 			(project "Arduino"
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e"
-					(reference "#PWR040")
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 99.06 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c19c5724-8ea8-4cae-8675-9180a61e12a2")
+		(property "Reference" "#PWR014"
+			(at 99.06 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 98.806 134.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 99.06 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04d42c1a-7ccf-4f47-b608-ab467b0ba459")
+		)
+		(instances
+			(project "Arduino"
+				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -11199,7 +11916,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2e5f039-c8f5-4bce-a2c1-0073b84283b7")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR043"
 			(at 256.54 92.71 0)
 			(effects
 				(font
@@ -11249,7 +11966,7 @@
 		(instances
 			(project ""
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e"
-					(reference "#PWR041")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -11265,7 +11982,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4f048cb-cffe-4d78-9b9e-efc997268b82")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR016"
 			(at 104.14 27.94 0)
 			(effects
 				(font
@@ -11315,7 +12032,7 @@
 		(instances
 			(project "Arduino"
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e"
-					(reference "#PWR014")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -11331,7 +12048,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c701a989-5a8b-48fd-a537-de99da8a8167")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR027"
 			(at 157.48 127 0)
 			(effects
 				(font
@@ -11381,7 +12098,7 @@
 		(instances
 			(project "Arduino"
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e"
-					(reference "#PWR025")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -11605,7 +12322,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd317bec-c003-4fcf-a8b8-3a9db2f73dac")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR03"
 			(at 34.29 59.69 0)
 			(effects
 				(font
@@ -11655,7 +12372,7 @@
 		(instances
 			(project "Arduino"
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e"
-					(reference "#PWR04")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -11818,7 +12535,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7b60548-128e-49f4-aeef-f8a8badf42bf")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR034"
 			(at 209.55 30.48 0)
 			(effects
 				(font
@@ -11868,7 +12585,7 @@
 		(instances
 			(project "Arduino"
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e"
-					(reference "#PWR032")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -11884,7 +12601,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da585e29-d983-4f90-930c-b4447f162daf")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR031"
 			(at 187.96 161.29 0)
 			(effects
 				(font
@@ -11934,7 +12651,7 @@
 		(instances
 			(project "Arduino"
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e"
-					(reference "#PWR029")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -12090,7 +12807,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e516401b-5c83-4a5d-8c0c-789869b89257")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR046"
 			(at 266.7 80.01 0)
 			(effects
 				(font
@@ -12140,7 +12857,7 @@
 		(instances
 			(project "Arduino"
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e"
-					(reference "#PWR044")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -12353,7 +13070,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0c6b0b6-f02d-4b9c-9c5e-6725b3a18313")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR017"
 			(at 104.14 44.45 0)
 			(effects
 				(font
@@ -12403,7 +13120,7 @@
 		(instances
 			(project ""
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e"
-					(reference "#PWR015")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -12505,7 +13222,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4eca8ab-8ddd-4721-9488-f43ebbcbc8de")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR029"
 			(at 175.26 66.04 0)
 			(effects
 				(font
@@ -12555,7 +13272,7 @@
 		(instances
 			(project "Arduino"
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e"
-					(reference "#PWR027")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -12571,7 +13288,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa9ef945-5e8e-4eb3-a9c5-d762546d3a4b")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR025"
 			(at 130.81 105.41 0)
 			(effects
 				(font
@@ -12621,7 +13338,7 @@
 		(instances
 			(project "Arduino"
 				(path "/b1260de1-9c48-4b08-a759-f31e40d6183e"
-					(reference "#PWR023")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -12979,7 +13696,7 @@
 				(hide yes)
 			)
 		)
-		(pin "5V" input
+		(pin "+5V" input
 			(at 137.16 90.17 180)
 			(uuid "8fd15a4b-77de-4de3-a9d4-39618e0c62ae")
 			(effects
@@ -12989,7 +13706,7 @@
 				(justify left)
 			)
 		)
-		(pin "12V" input
+		(pin "+12V" input
 			(at 137.16 92.71 180)
 			(uuid "f97dc84b-89e6-480b-a078-ed3a7746bf85")
 			(effects
@@ -13165,7 +13882,7 @@
 				(hide yes)
 			)
 		)
-		(pin "5V" output
+		(pin "+5V" output
 			(at 63.5 43.18 0)
 			(uuid "29931cb4-e741-4b94-853b-29c811367b3f")
 			(effects
@@ -13175,7 +13892,7 @@
 				(justify right)
 			)
 		)
-		(pin "12V" output
+		(pin "+12V" output
 			(at 63.5 39.37 0)
 			(uuid "8bc01f04-f9f7-40fd-ad30-06feba089f12")
 			(effects

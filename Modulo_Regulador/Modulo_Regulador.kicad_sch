@@ -1018,7 +1018,7 @@
 		)
 		(uuid "1128eeb1-3c4d-4e62-8bc0-40d0cae50b5c")
 	)
-	(hierarchical_label "5V"
+	(hierarchical_label "+5V"
 		(shape input)
 		(at 172.72 107.95 0)
 		(effects
@@ -1029,7 +1029,7 @@
 		)
 		(uuid "320cbcc3-32dd-4117-a99f-d3f7ac281103")
 	)
-	(hierarchical_label "5V"
+	(hierarchical_label "+5V"
 		(shape input)
 		(at 208.28 83.82 0)
 		(effects
@@ -1040,7 +1040,7 @@
 		)
 		(uuid "4f276344-cb89-4ae7-8e6e-60989710bbc8")
 	)
-	(hierarchical_label "12V"
+	(hierarchical_label "+12V"
 		(shape input)
 		(at 132.08 77.47 90)
 		(effects
